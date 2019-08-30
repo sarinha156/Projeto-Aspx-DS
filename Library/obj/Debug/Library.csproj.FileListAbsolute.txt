@@ -1,0 +1,6 @@
+D:\Sarah\ProjetoDS\Library\bin\Debug\Library.dll
+D:\Sarah\ProjetoDS\Library\bin\Debug\Library.pdb
+D:\Sarah\ProjetoDS\Library\obj\Debug\Library.csprojAssemblyReference.cache
+D:\Sarah\ProjetoDS\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+D:\Sarah\ProjetoDS\Library\obj\Debug\Library.dll
+D:\Sarah\ProjetoDS\Library\obj\Debug\Library.pdb
