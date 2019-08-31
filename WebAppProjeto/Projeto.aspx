@@ -87,7 +87,7 @@
                 <br />
 
                 <div>
-                    <asp:TextBox ID="txtPublico" runat="server" Width="148px"></asp:TextBox>
+                    <asp:TextBox ID="txtPublicoAlvo" runat="server" Width="148px"></asp:TextBox>
                     <br />
                 </div>
 
@@ -101,7 +101,7 @@
                 <br />
 
                 <div>
-                    <asp:TextBox ID="txtConcorrente" runat="server" Width="148px"></asp:TextBox>
+                    <asp:TextBox ID="txtPrincipaisConcorrentes" runat="server" Width="148px"></asp:TextBox>
                     <br />
                 </div>
 
@@ -116,7 +116,7 @@
                 <br />
 
                 <div>
-                    <asp:TextBox ID="txtPolitica" runat="server" Width="148px"></asp:TextBox>
+                    <asp:TextBox ID="txtPoliticaComercializacao" runat="server" Width="148px"></asp:TextBox>
                     <br />
                 </div>
 
@@ -130,7 +130,7 @@
                 <br />
 
                 <div>
-                    <asp:TextBox ID="txtCusto" runat="server" Width="148px"></asp:TextBox>
+                    <asp:TextBox ID="txtCustoEstimado" runat="server" Width="148px"></asp:TextBox>
                     <br />
                 </div>
 
@@ -145,7 +145,7 @@
                 <br />
 
                 <div>
-                    <asp:TextBox ID="txtMedia" runat="server" Width="148px"></asp:TextBox>
+                    <asp:TextBox ID="txtMediaf" runat="server" Width="148px"></asp:TextBox>
                     <br />
                 </div>
 
@@ -161,14 +161,15 @@
                 <br />
 
                 <div>
-                    <asp:TextBox ID="txtData" runat="server" Width="148px"></asp:TextBox>
+                    <asp:TextBox ID="txtDataInclusao" runat="server" Width="148px" OnTextChanged="txtDataInclusao_TextChanged"></asp:TextBox>
                     <br />
                 </div>
 
             </div>
             <br />
 
-            <asp:Button ID="btnEnviar" runat="server" Text="Enviar" />
+            <asp:Button ID="btnEnviar" runat="server" Text="Enviar" OnClick="btnEnviar_Click" />
+            <asp:Label ID="lblMensagem" runat="server" Text="Label"></asp:Label>
         </div>
     </form>
 </body>

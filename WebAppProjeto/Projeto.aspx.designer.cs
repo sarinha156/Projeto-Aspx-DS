@@ -67,58 +67,58 @@ namespace WebAppProjeto {
         protected global::System.Web.UI.WebControls.TextBox txtPlataforma;
         
         /// <summary>
-        /// txtPublico control.
+        /// txtPublicoAlvo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPublico;
+        protected global::System.Web.UI.WebControls.TextBox txtPublicoAlvo;
         
         /// <summary>
-        /// txtConcorrente control.
+        /// txtPrincipaisConcorrentes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtConcorrente;
+        protected global::System.Web.UI.WebControls.TextBox txtPrincipaisConcorrentes;
         
         /// <summary>
-        /// txtPolitica control.
+        /// txtPoliticaComercializacao control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPolitica;
+        protected global::System.Web.UI.WebControls.TextBox txtPoliticaComercializacao;
         
         /// <summary>
-        /// txtCusto control.
+        /// txtCustoEstimado control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCusto;
+        protected global::System.Web.UI.WebControls.TextBox txtCustoEstimado;
         
         /// <summary>
-        /// txtMedia control.
+        /// txtMediaf control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMedia;
+        protected global::System.Web.UI.WebControls.TextBox txtMediaf;
         
         /// <summary>
-        /// txtData control.
+        /// txtDataInclusao control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtData;
+        protected global::System.Web.UI.WebControls.TextBox txtDataInclusao;
         
         /// <summary>
         /// btnEnviar control.
@@ -128,5 +128,14 @@ namespace WebAppProjeto {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnEnviar;
+        
+        /// <summary>
+        /// lblMensagem control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMensagem;
     }
 }

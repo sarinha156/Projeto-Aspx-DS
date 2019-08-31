@@ -166,3 +166,5 @@ D:\Sarah\DS Projeto Aspx\WebAppProjeto\obj\Debug\WebAppProjeto.csproj.CoreCompil
 D:\Sarah\DS Projeto Aspx\WebAppProjeto\obj\Debug\WebAppProjeto.csproj.CopyComplete
 D:\Sarah\DS Projeto Aspx\WebAppProjeto\obj\Debug\WebAppProjeto.dll
 D:\Sarah\DS Projeto Aspx\WebAppProjeto\obj\Debug\WebAppProjeto.pdb
+D:\Sarah\DS Projeto Aspx\WebAppProjeto\bin\Library.dll
+D:\Sarah\DS Projeto Aspx\WebAppProjeto\bin\Library.pdb

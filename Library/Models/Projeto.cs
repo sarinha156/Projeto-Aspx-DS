@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library.Models
 {
-    class Projeto
+    public class Projeto
     {
         private int id;
         private string nome;
@@ -18,7 +18,7 @@ namespace Library.Models
         private string politicasDeComercializacao;
         private decimal custoEstimado;
         private char mediaFinal;
-        private int dataInclusao;
+        private DateTime dataInclusao;
 
         public int Id { get => id; set => id = value; }
         public string Nome { get => nome; set => nome = value; }
@@ -30,6 +30,19 @@ namespace Library.Models
         public string PoliticasDeComercializacao { get => politicasDeComercializacao; set => politicasDeComercializacao = value; }
         public decimal CustoEstimado { get => custoEstimado; set => custoEstimado = value; }
         public char MediaFinal { get => mediaFinal; set => mediaFinal = value; }
-        public int DataInclusao { get => dataInclusao; set => dataInclusao = value; }
+        public DateTime DataInclusao { get => dataInclusao; set => dataInclusao = value; }
+
+        public string Exibir()
+        {
+            string mensagem = string.Format("<br>Id: {0} <br> Nome: {1}<br>  Descrição: {2} <br> Url: {3}<br> Plataforma: {4}<br> Público Alvo: {5} <br>" +
+                " Principais Concorrentes: {6} <br>Politicas De Comercializacao: {7} <br> Custo Estimado: {8} <br>" +
+                "Media Final: {9} <br> DataInclusao: {10}  ", Id, Nome, Descricao, Url, publicoAlvo, plataforma, 
+                principaisConcorrentes,PoliticasDeComercializacao, custoEstimado,mediaFinal,dataInclusao);
+            return mensagem;
+            //return mensagemFormatada;
+        }
     }
+
+  
+
 }
